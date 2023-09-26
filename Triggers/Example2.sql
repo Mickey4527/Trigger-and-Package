@@ -8,7 +8,7 @@ CREATE TABLE EMPLOYEES_LOG
 );
 
 /* step 2 -- Create Triggers*/
-
+   /*จัดการเองนะ*/
 /
 
 /*step 3 -- INSERT*/

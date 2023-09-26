@@ -35,12 +35,12 @@ CREATE OR REPLACE PACKAGE BODY employee_mana AS
         RETURN NUMBER IS new_emp_id NUMBER;
 
   BEGIN
-   
+   /*จัดการเองนะ*/
   END add_employee;
 
 /*remove employee*/
     PROCEDURE remove_employee(employee_id Employee.employee_id%TYPE) IS
-   
+   /*จัดการเองนะ*/
     END remove_employee;
 
 /*update employee salary*/
@@ -50,7 +50,7 @@ CREATE OR REPLACE PACKAGE BODY employee_mana AS
     PROCEDURE update_employee_commission_pct(employee_id Employee.employee_id%TYPE, 
                                              commission_pct Employee.COMMISSION_PCT%TYPE) IS
     BEGIN
-   
+   /*จัดการเองนะ*/
     END update_employee_commission_pct;
 
 END employee_mana;
